@@ -28,4 +28,4 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=keeevvv -Dsonar.projectKey=keeevvv_demo-Continuous-Inspection 
+      run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=keeevvv -Dsonar.projectKey=keeevvv_demo-Continuous-Inspection
